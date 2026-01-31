@@ -1,0 +1,17 @@
+# Build directories
+out/
+build/
+cmake-build-*/
+bin/
+lib/
+
+# Visual Studio / VS Code
+.vs/
+.vscode/
+*.user
+*.suo
+*.ipch
+
+# OS specific
+.DS_Store
+Thumbs.db

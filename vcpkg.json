@@ -1,5 +1,5 @@
 {
-  "name": "raylib-project",
+  "name": "raylib-cpp-template",
   "version-string": "0.1.0",
   "dependencies": [
     "raylib"

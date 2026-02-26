@@ -1,17 +1,54 @@
-# Build directories
-out/
-build/
-cmake-build-*/
-bin/
-lib/
+# Prerequisites
+*.d
 
-# Visual Studio / VS Code
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Linker files
+*.ilk
+
+# Debugger Files
+*.pdb
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# debug information files
+*.dwo
+
+# CMake & vcpkg outputs
+/out/
+/build/
+vcpkg_installed/
+CMakeCache.txt
+CMakeFiles/
+CMakeUserPresets.json
+
+# IDE specific files
 .vs/
 .vscode/
-*.user
-*.suo
-*.ipch
-
-# OS specific
-.DS_Store
-Thumbs.db
+.idea/

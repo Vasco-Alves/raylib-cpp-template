@@ -1,4 +1,4 @@
-# Raylib CMake Template
+# Raylib C++ Template
 
 A clean starter template for [Raylib](https://www.raylib.com/) projects using **C++**, **CMake**, and **vcpkg**.
 
